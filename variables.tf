@@ -9,7 +9,7 @@ variable "tags" {
   type        = map(string)
 
   default = {
-    environment = "Test"
+    environment = "Test-Class2"
   }
 }
 
@@ -31,10 +31,6 @@ variable "admin_password" {
 variable "dbname"{
   default = "db-wordpress"
 }
-
-#variable "db_server_name" {
- # default = "mysqlserver-wordpress"
-#}
 
 variable "database_admin_login" {
   default = "wordpress"
