@@ -1,13 +1,13 @@
 # Team-2 09/21/2022
 Team members:
-Diana Machkhidze   (16 hrs.)
+Diana Machkhidze   (30 hrs.)
 Mariana Stoianova  (30 hrs.)
 Greg Valico        (30 hrs.)
 Andrei Ambrosi     (30 hrs.)
-Muhammad Wasiq     (20 hrs.)
-Evelina Gataullina (16 hrs.)
-Svetlana Koroleva  (20 hrs.)
-Paul Nestel        (20 hrs.)
+Muhammad Wasiq     (30 hrs.)
+Evelina Gataullina (30 hrs.)
+Svetlana Koroleva  (30 hrs.)
+Paul Nestel        (30 hrs.)
 
 
 
