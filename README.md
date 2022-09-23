@@ -1,5 +1,6 @@
 # Team-2 09/21/2022
 * Team members:
+* Eliza Kanzharbekova (30 hrs.)
 * Diana Machkhidze   (30 hrs.)
 * Mariana Stoianova  (30 hrs.)
 * Greg Valico        (30 hrs.)
