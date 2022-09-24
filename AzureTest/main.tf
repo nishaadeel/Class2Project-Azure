@@ -16,7 +16,7 @@ module "resourcegroup" {
     source = "./ResourceGroup"
 }
 
-module "MySQL" {
+module "VNET" {
     source = "./VNET"
 }
 
