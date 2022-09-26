@@ -1,3 +1,3 @@
 output "application_public_address" {
-  value = azurerm_public_ip.wordpress.fqdn
+  value = aws_route53_record.wordpressdb.name
 }
