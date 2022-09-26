@@ -18,6 +18,14 @@ resource "azurerm_public_ip" "wordpress" {
   location            = var.location
   resource_group_name = azurerm_resource_group.wordpress.name
   allocation_method   = "Static"
-  domain_name_label   = random_string.fqdn.result
+  # domain_name_label   = random_string.fqdn.result
   tags                = var.tags
+}
+
+resource "aws_route53_record" "wordpressdb" {
+  zone_id = "Z0998587I8XIP5TPW8IC"
+  name    = "wordpress.awsstudying.com"
+  type    = "A"
+  ttl     = 300
+  records = [azurerm_public_ip.wordpress.ip_address]
 }

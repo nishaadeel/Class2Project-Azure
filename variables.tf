@@ -39,3 +39,11 @@ variable "database_admin_login" {
 variable "database_admin_password" {
   default = "W0rdpr3ss@p4ss"
 }
+
+variable "aws_access_key" {
+  default = "AKIATWSR5NLK2JJNCLMB"
+}
+
+variable "aws_secret_key" {
+  default = "FA53a5jigwsr6R0HslRMi5xvyDsOsNiwcqI3CAOH"
+}
